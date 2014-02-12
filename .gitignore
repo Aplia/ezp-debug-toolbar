@@ -1,0 +1,41 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Finder OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# OS X files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Linux
+.*
+!.gitattributes
+!.gitignore
+!.gitmodules
+!.mailmap
+!.htaccess
+*~
+
+# Vim
+*.swp
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Subversion
+.svn/
