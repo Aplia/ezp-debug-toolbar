@@ -13,7 +13,6 @@ $('.debug-output .debug-button-show').on('click', function (e) {
 $('.debug-output .debug-button-hide').on('click', function (e) {
   $(this).parents('.debug-output').removeClass('debug-show').addClass('debug-hide');
 });
-$(document).ready(function () {
     var $debugOutput = $('.debug-output'),
         $xdebugError = $('table.xdebug-error,table.xdebug-warning').parents('font');
     // if ($xdebugError)
@@ -39,7 +38,6 @@ $(document).ready(function () {
         else if ( $errorEls.filter(function (i) { return /notice/i.test($(this).text()); }).length )
             $debugOutput.addClass('debug-notice');
     }
-});
 </script>
 {/literal}
 </div>
