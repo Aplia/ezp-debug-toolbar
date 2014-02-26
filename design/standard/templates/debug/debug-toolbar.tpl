@@ -1,4 +1,5 @@
 {if eq( ezini( 'DebugSettings', 'DebugOutput', 'site.ini' ), 'enabled' )}
+<link rel="stylesheet" type="text/css" media="screen" href={'stylesheets/debug-toolbar.css'|ezdesign} />
 <div class="debug-output debug-hide {if ne( ezini( 'DebugSettings', 'DebugOutput', 'site.ini' ), 'enabled' )}debug-disabled{/if}">
     <div class="debug-button-show debug-button"><a href="#">&lt;&lt;</a></div> 
    <div class="debug-button-hide debug-button"><a href="#">Hide &gt;&gt;</a></div>
