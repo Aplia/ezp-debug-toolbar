@@ -1,6 +1,11 @@
 <?php
 
 // Usage:
+// To install the required packages run the following commands:
+// composer require firephp/firephp-core
+// composer require raven/raven
+// composer install
+//
 // Create (or update) config.php and set one of the following.
 //
 // Set $GLOBALS['ezpDebugMode'] to one of:
@@ -24,11 +29,6 @@
 //
 // Then bootstrap by doing
 // require_once 'extension/debug-toolbar/bootstrap/error_handler.php';
-//
-// To install the required packages run the following commands:
-// composer require firephp/firephp-core
-// composer require raven/raven
-// composer install
 
 
 $GLOBALS['ezpBootstrapRoot'] = realpath(__DIR__ . '/../../../');
