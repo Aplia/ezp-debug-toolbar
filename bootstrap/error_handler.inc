@@ -834,7 +834,11 @@ $(function () {
 
                 $exportVariable = function ($val) {
                     if (in_array(gettype($val), array('object', 'array'))) {
-                        $val = json_encode($val, JSON_PRETTY_PRINT);
+                        $jsonFlags = 0;
+                        if (version_compare(PHP_VERSION, "5.4") >= 0) {
+                           $jsonFlags = JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT;
+                        }
+                        $val = json_encode($val, $jsonFlags);
                         // ob_start();
                         // var_dump($val);
                         // $val = ob_get_contents();
