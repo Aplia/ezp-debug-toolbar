@@ -7,8 +7,9 @@
     "license": "GPL-2.0",
     "authors": [
         {
-            "name": "Jan Borsodi",
-            "email": "jb@aplia.no"
+            "name": "Aplia dev-team",
+            "email": "info@aplia.no",
+            "homepage": "https://www.aplia.no"
         }
     ],
     "require": {
