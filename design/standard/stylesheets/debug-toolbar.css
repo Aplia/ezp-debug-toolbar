@@ -82,4 +82,38 @@
     border-top: 0px !important;
 }
 
+.debug-output #debug-log-console
+{
+    margin-left: 50px;
+}
 
+.debug-log-item {
+    border-bottom: 1px solid #999;
+}
+
+.debug-log-item h3 {
+    background-color: #eee;
+    padding: 3px 8px;
+}
+
+.debug-log-item.debug-level-error h3 {
+    background-color: #f3acac;
+}
+
+.debug-log-item.debug-level-warning h3 {
+    background-color: #ffa500;
+}
+
+.debug-log-item.debug-level-debug h3 {
+    background-color: #cca4a4;
+}
+
+.debug-log-item.debug-level-timing h3 {
+    background-color: #00f;
+}
+
+.debug-log-item pre {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
