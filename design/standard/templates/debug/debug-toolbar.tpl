@@ -133,7 +133,7 @@
         var $errorEls = $('.debug-output .debug-report td.debugheader span');
         // Determine if there are errors, warnings, debugs or notice and set class
         if (hasErrors)
-            $debugOutputad.dClass('debug-error');
+            $debugOutput.addClass('debug-error');
         else if (hasWarnings)
             $debugOutput.addClass('debug-warning');
         else if (hasDebugs)
