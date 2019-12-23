@@ -10,6 +10,11 @@ This means that the page no longer gets affected by long debug output.
 Installation
 ------------
 
+Install using composer::
+
+	composer require aplia/debug-toolbar
+
+
 Enable the extension by adding this to site.ini::
 
   [ExtensionSettings]
